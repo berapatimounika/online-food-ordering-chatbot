@@ -1,0 +1,159 @@
+{
+  "id": "8728f727-100b-45b7-836c-7a15d3393dba",
+  "name": "order_id",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "orderid",
+          "dataType": "@orderid",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "your order id"
+          ],
+          "value": "$orderid",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "please wait for few minutes food is on the way"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "my order id is ",
+          "userDefined": false
+        },
+        {
+          "text": "876786",
+          "userDefined": true,
+          "alias": "orderid",
+          "meta": "@orderid"
+        }
+      ],
+      "count": 0,
+      "id": "59ad96d7-966f-4ca6-8f9c-3411e5012d3d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "order id 798787",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0056a2a2-9cc6-4a2d-8ac1-8a1ae61b0106",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "why not order id 789878",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f0157fa8-d1bb-4bd8-986d-d3a8ed3f8cb2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "yes, order id 878666",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "de6ee4ce-f35b-457f-a754-c803afbd1a8d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sure my order id 786775",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eb1c6b42-33ba-4c15-b40b-dbc1f5e83fde",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "676766",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1dcb0090-baf6-4786-a4f7-0453da11ed71",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "878647",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1d34b080-fa32-4b40-8423-ef915b08e635",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "order_id",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c246c646-f38d-4748-b50b-32972dc7e71c",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

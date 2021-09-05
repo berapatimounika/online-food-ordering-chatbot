@@ -1,0 +1,113 @@
+{
+  "id": "afddbeb2-a8f9-423e-b5f7-adce37d81b21",
+  "name": "timings",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "online food deliver opened in all days in a week and timings are 8:00am to 10:00pm"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "when will you close?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "209ecc62-62e6-4860-97d9-6d8c7dbdd02d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "when will you open?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a8e0beb5-16ff-4eb0-b8af-96b40f26cdfa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "closing time?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7eb260e8-0186-4ba7-89fe-c346b4c75149",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "opening time?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "afecf51f-9069-4bfc-a9c6-a41bd9f8708c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "opening and closing time?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4ebdd380-8ba4-44da-9c74-85bf7d45b52a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "timings?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a7a5c101-8119-4649-99a1-75b23d877e5d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

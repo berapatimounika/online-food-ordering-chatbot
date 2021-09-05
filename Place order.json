@@ -1,0 +1,187 @@
+{
+  "id": "63ab18e4-375e-4f24-8371-9160b5a9d67a",
+  "name": "Place order",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Sure, What would you like to order today?"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Definitely, What would you like to have today?"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Certainly, I’ll try to help you with that. What are you feeling like eating\ntoday?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am looking to order Chinese food",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e36f8579-e1f8-4dd0-8ff8-523bbb96e63c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am looking to order Thai food",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2641e68c-4845-4f8f-8657-e96d22b676ab",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to order food",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "155a9aef-1075-4b8b-bd41-00b5d4d9b584",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you please order food for me?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5d61e214-a184-4b73-96e7-062c4fed62df",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Would you please help me to order food?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eeceb811-a65f-4fcf-a75f-2484d7408ab7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to place an order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c9800885-bc56-4229-9b9c-4cf4f696770c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to place an order for Chinese food",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "18cf2085-bdad-4557-8100-f4fd1669f6cf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Take my order please",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f3b5d1a3-05f5-4acf-aefb-c7cb5bd50b59",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you please take my order for food?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "78afdd31-ceed-462a-903d-0d56f840953e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to order food asap",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "73099954-6674-4538-8c98-1b3084ab4d1f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want food",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f3536257-f6a0-4396-8d03-0ca3ce50e368",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

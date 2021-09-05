@@ -1,0 +1,137 @@
+{
+  "id": "191f7d9f-8d2e-4929-b607-cbc0b3975c59",
+  "name": "User thanks",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": true,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telegram": true,
+        "google": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "thanks for your cooperation"
+          ]
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "condition": "",
+          "customizeAudio": false,
+          "items": [
+            {
+              "displayText": "",
+              "textToSpeech": "thanks for your cooperation",
+              "ssml": ""
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "thanks for your cooperation"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "thanks alott",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "25c55429-cccb-4b8e-b329-4f15d088e701",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "thank you so much",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "408ac596-12a3-4020-8222-c865d27ddf14",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ok, waiting thank you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6160b1d0-08a8-453f-88d6-0e9a44bdbb05",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "well, thank you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "616285dd-319c-408c-b907-e06f12940bed",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "thank you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d1c9883b-55e4-474e-a22f-22538e868ba4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "User thanks",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7094b6d1-2f9c-459c-96f5-bebe70216221",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

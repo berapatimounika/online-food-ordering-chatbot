@@ -1,0 +1,174 @@
+{
+  "id": "fcc823d8-7c6d-4441-880c-d9fa20500b84",
+  "name": "Order status",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "orderid",
+          "dataType": "@orderid",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$orderid",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "time",
+          "dataType": "@sys.time",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$time",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "can you please tell me your orderid"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where is my ",
+          "userDefined": false
+        },
+        {
+          "text": "order",
+          "userDefined": true,
+          "alias": "orderid",
+          "meta": "@orderid"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "adb0edea-6ba0-48a0-9922-a0462d2bf4c4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I haven't received my food order yet",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "162d371e-263c-473f-83d9-cfdcf6422545",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello, when will i receive my food oder?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fcbb14ad-bf81-4de0-a8d3-d5d57e71378c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "why is status of my food order?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3d94717c-22b1-4364-ac4b-5e86d5a5422a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you please help me know my food order status",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9e65a3f9-b05b-4136-8743-ed0b73100c66",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where is my food?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "875d3ebc-f76d-4b8e-be47-d36b40741c36",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tell me where is my food?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c15021f9-5ac2-4216-b503-9396e64e8e1c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Order status",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1e54dd2d-dc59-4eaf-a59b-db55b07109f1",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
